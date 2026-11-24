@@ -1,0 +1,24 @@
+# Gate A (static_scene_check.py) and Gate W (wcag_margin_check.py) on every scene of the final scenes.py, 2026-11-23 20:52 EST
+B00_ClaimFile | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B01_QuoteOrRefuse | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B02_LookAlike | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B02B_Consequence | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B03_Roadmap | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B04_SearchEngines | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B05_LegalTools | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B06_RealNotRight | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B07A_TheGap | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B07_AddsTheCheck | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B08_FirstPiece | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B09_ContractChecker | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B10_AgentLoop | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B11_ReadOnlyTools | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B12_HumanGate | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B13_Data | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B14_Steps | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B15_Resources | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B17_TraceableNotRight | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B18_TheBar | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B19_BreakItOnPurpose | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+B20_Limit | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0
+BOUT_Title | A: 1 scene(s): 1 clean · 0 warn · 0 error | W rc=0

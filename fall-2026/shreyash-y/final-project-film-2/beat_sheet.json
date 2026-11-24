@@ -1,0 +1,1228 @@
+{
+  "metadata": {
+    "slug": "yadav-shreyash-final-project-film",
+    "title": "Quote It or Refuse.",
+    "topic": "INFO 7375 - FINAL PROJECT FILM",
+    "working_title": "ClaimCheck",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "student-info7375",
+    "persona": "Shreyash Yadav (AI voice reading the student's own script)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "pronounce": {
+      "Shreyash": "ʃɹˈeɪəʃ",
+      "Yadav": "jˈɑːdəv"
+    },
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt",
+      "bhtf"
+    ],
+    "bookend_exempt_reason": "Course brief: four parts in this order (summary, prior work, methods, evaluation). The hesitant writer opens the summary; no terms card, verdict card or Your Turn, which would add parts the brief doesn't ask for. Student outro is a drawn title card (no @NikBearBrown handle).",
+    "audience": "INFO 7375 instructor and TAs; reviewers for applied-AI / LLM engineer roles",
+    "source_doc": "ClaimCheck first piece (submission folder, 2026-10-25), re-run 2026-11-23 into evidence/; PROJECT-BRIEF.md (2026-10-14); prior-work sources in SOURCES.md and FACTCHECK.md",
+    "honesty": "Past tense only for what ran: the offline no-model baseline and the 17 unit tests (re-run 2026-11-23). No Claude API key yet, so no live Claude run and no Claude response is shown. Agent loop, tools, gate, larger data set and held-out run are plans.",
+    "tags": [
+      "ClaimCheck",
+      "INFO 7375",
+      "citation checking",
+      "LLM evaluation",
+      "agentic AI",
+      "Brutalist"
+    ],
+    "build": {
+      "at": "2026-11-23T23:11:50",
+      "cut": "master",
+      "filled": 25,
+      "of": 25,
+      "slates": [],
+      "skin_warnings": [
+        "BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' — COLD OPEN LAW wants ClaudeComposerAsk",
+        "BOUT: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro"
+      ]
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "1 executive summary",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hi, I'm Shreyash Yadav, and this film is about my final project for INFO seventy-three seventy-five. It's called ClaimCheck. It isn't a smarter chatbot for insurance claims. It's a citation checker.",
+      "estimated_duration_s": 9.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'ClaimCheck is a smarter chatbot for insurance claim files.'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'smarter chatbot' and types 'citation checker'"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "ClaimCheck is a smarter chatbot\nfor insurance claim files.",
+            "triggerWords": "smarter chatbot",
+            "replacementWords": "citation checker",
+            "fontSize": 96,
+            "face": "serif",
+            "align": "center",
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "yadav-shreyash-final-project-film",
+            "banner": "AI voice reading my script",
+            "durationSeconds": 12.789
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive description and corrects it to the real one: a citation checker.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      },
+      "actual_duration_s": 11.989,
+      "audio_file": "mp3/beat-BIDEA.mp3",
+      "render_duration_s": 12.0,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BIDEA.mp4",
+        "filled_by": "media",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "1 executive summary",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "An insurance claims examiner asks one question all day. Is this covered, and which clause says so?",
+      "estimated_duration_s": 5.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The claim file (a binder) drops onto the stage; a question slip slides out beside it.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "binder lands with a shadow"
+          },
+          {
+            "at": 0.55,
+            "event": "question slip slides out"
+          }
+        ],
+        "manim": {
+          "class": "B00_ClaimFile"
+        },
+        "motion_claim": "The claim file (a binder) drops onto the stage; a question slip slides out beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 6.293,
+      "audio_file": "mp3/beat-B00.mp3",
+      "render_duration_s": 6.333333333333333,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B00.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 executive summary",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "ClaimCheck answers only with a word-for-word quote from the claim file, checked against the file before anyone sees it. If no clause answers the question, it should say: not in the documents.",
+      "estimated_duration_s": 9.7,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The binder's cover lifts; one line lifts out as a quote slip and gets a check; a second slip returns blank with a refusal mark.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "cover lifts"
+          },
+          {
+            "at": 0.35,
+            "event": "quote slip rises, check lands"
+          },
+          {
+            "at": 0.75,
+            "event": "empty slip: refuse"
+          }
+        ],
+        "manim": {
+          "class": "B01_QuoteOrRefuse"
+        },
+        "motion_claim": "The binder's cover lifts; one line lifts out as a quote slip and gets a check; a second slip returns blank with a refusal mark."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 10.709,
+      "audio_file": "mp3/beat-B01.mp3",
+      "render_duration_s": 10.75,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "1 executive summary",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Why does that matter? A fluent answer that cites the wrong clause looks exactly like a right one.",
+      "estimated_duration_s": 5.5,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two identical answer slips side by side, each with a citation tab; only one tab connects to the clause that answers the question.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "two identical slips"
+          },
+          {
+            "at": 0.6,
+            "event": "one tab's line reaches the wrong clause"
+          }
+        ],
+        "manim": {
+          "class": "B02_LookAlike"
+        },
+        "motion_claim": "Two identical answer slips side by side, each with a citation tab; only one tab connects to the clause that answers the question."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 5.525,
+      "audio_file": "mp3/beat-B02.mp3",
+      "render_duration_s": 5.541666666666667,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B02B",
+      "act": "1 executive summary",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Trust it, and an examiner could pay a claim the policy excludes, or deny a covered claim and leave the policyholder unpaid. Either way, the quote makes the mistake look checked.",
+      "estimated_duration_s": 9.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two claim pages, each with the same cited slip clipped on; the stamp comes down on each: 'paid' on the excluded claim, 'denied' on the covered one, each with a cross; then each clipped slip gets a check: 'looks checked'.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "stamp: excluded claim paid"
+          },
+          {
+            "at": 0.45,
+            "event": "stamp: covered claim denied"
+          },
+          {
+            "at": 0.8,
+            "event": "the slips look checked"
+          }
+        ],
+        "manim": {
+          "class": "B02B_Consequence"
+        },
+        "motion_claim": "Two claim pages, each with the same cited slip clipped on; the stamp comes down on each: 'paid' on the excluded claim, 'denied' on the covered one, each with a cross; then each clipped slip gets a check: 'looks checked'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 10.133,
+      "audio_file": "mp3/beat-B02B.mp3",
+      "render_duration_s": 10.166666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02B.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "1 executive summary",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Part of ClaimCheck already runs. The rest of this film covers what others have done, how I'll build it, and how I'll know it worked.",
+      "estimated_duration_s": 7.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A solid crate (built) and three dashed outlines (planned) line up along a rail; each dashed outline lights as its part is named.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "solid crate: runs today"
+          },
+          {
+            "at": 0.45,
+            "event": "three planned outlines"
+          }
+        ],
+        "manim": {
+          "class": "B03_Roadmap"
+        },
+        "motion_claim": "A solid crate (built) and three dashed outlines (planned) line up along a rail; each dashed outline lights as its part is named."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 7.104,
+      "audio_file": "mp3/beat-B03.mp3",
+      "render_duration_s": 7.125,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "2 introduction: what others have done",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Part two: what others have done. AI search engines already cite sources. In early 2023, Stanford researchers checked four of them, including Bing Chat and Perplexity: only about half of their sentences were fully supported by their citations.",
+      "estimated_duration_s": 11.5,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Four answer cards, each with citation tabs; a counter climbs to 51.5% beside them.",
+        "show": [
+          {
+            "at": 0.25,
+            "event": "four answer cards"
+          },
+          {
+            "at": 0.7,
+            "event": "51.5% lands"
+          }
+        ],
+        "manim": {
+          "class": "B04_SearchEngines"
+        },
+        "motion_claim": "Four answer cards, each with citation tabs; a counter climbs to 51.5% beside them."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 14.677,
+      "audio_file": "mp3/beat-B04.mp3",
+      "render_duration_s": 14.708333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "2 introduction: what others have done",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Legal research tools fetch real cases first. Even so, a 2024 study by Stanford and Yale researchers found Lexis Plus AI and Westlaw's AI tool hallucinated seventeen to thirty-three percent of the time.",
+      "estimated_duration_s": 10.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A row of case books; answer slips come off them and some get struck; '17-33%' lands.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "case books"
+          },
+          {
+            "at": 0.6,
+            "event": "17-33% lands"
+          }
+        ],
+        "manim": {
+          "class": "B05_LegalTools"
+        },
+        "motion_claim": "A row of case books; answer slips come off them and some get struck; '17-33%' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 13.952,
+      "audio_file": "mp3/beat-B05.mp3",
+      "render_duration_s": 13.958333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "2 introduction: what others have done",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Anthropic added a citations feature to Claude in 2025. Its documentation guarantees each quote points to real text in your documents. That makes a quote real. It doesn't make it the right one.",
+      "estimated_duration_s": 10.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A quote slip draws a pointer into a page and gets a check ('real'); a second mark beside it stays open ('right?').",
+        "show": [
+          {
+            "at": 0.3,
+            "event": "pointer lands in the page: real"
+          },
+          {
+            "at": 0.8,
+            "event": "right? stays open"
+          }
+        ],
+        "manim": {
+          "class": "B06_RealNotRight"
+        },
+        "motion_claim": "A quote slip draws a pointer into a page and gets a check ('real'); a second mark beside it stays open ('right?')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 12.224,
+      "audio_file": "mp3/beat-B06.mp3",
+      "render_duration_s": 12.25,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B07A",
+      "act": "2 introduction: what others have done",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Side by side, both studies found cited answers that were wrong or unsupported, and Anthropic's citations feature makes a quote real, not right. That's the gap ClaimCheck addresses: a cited answer can still be wrong, so something has to catch it before a reader relies on it.",
+      "estimated_duration_s": 14.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two study cards side by side: Liu et al., 2023, four AI search engines, 51.5% fully supported; Magesh et al., 2024, Lexis+ AI and Westlaw AI, 17-33% hallucinated. A line under both: the gap, catch it before the reader, with an open ring.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "two study cards"
+          },
+          {
+            "at": 0.3,
+            "event": "the two findings"
+          },
+          {
+            "at": 0.6,
+            "event": "the gap line"
+          },
+          {
+            "at": 0.85,
+            "event": "open ring"
+          }
+        ],
+        "manim": {
+          "class": "B07A_TheGap"
+        },
+        "motion_claim": "Two study cards side by side: Liu et al., 2023, four AI search engines, 51.5% fully supported; Magesh et al., 2024, Lexis+ AI and Westlaw AI, 17-33% hallucinated. A line under both: the gap, catch it before the reader, with an open ring."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 15.317,
+      "audio_file": "mp3/beat-B07A.mp3",
+      "render_duration_s": 15.333333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07A.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "2 introduction: what others have done",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Citing is common; checking isn't. ClaimCheck adds the check: each quote is tested before an examiner sees it, the tool should refuse when the file is silent, and it counts how often a wrong answer still gets through.",
+      "estimated_duration_s": 11.5,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The quote slip passes under the inspection lamp; a tally board beside it counts one mark.",
+        "show": [
+          {
+            "at": 0.25,
+            "event": "lamp swings onto the slip"
+          },
+          {
+            "at": 0.8,
+            "event": "tally mark"
+          }
+        ],
+        "manim": {
+          "class": "B07_AddsTheCheck"
+        },
+        "motion_claim": "The quote slip passes under the inspection lamp; a tally board beside it counts one mark."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 11.627,
+      "audio_file": "mp3/beat-B07.mp3",
+      "render_duration_s": 11.666666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "3 methods",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Part three: how I'm building it. The first piece already runs, offline: a synthetic homeowner policy I wrote, and ten questions, four of them traps, frozen with a checksum before any model saw them. Its seventeen tests passed again today.",
+      "estimated_duration_s": 12.1,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "One policy page; ten question cards in a row, four with a terracotta dot; a lock bar slides over the row; a check for the tests.",
+        "show": [
+          {
+            "at": 0.25,
+            "event": "policy page"
+          },
+          {
+            "at": 0.45,
+            "event": "ten cards, four marked"
+          },
+          {
+            "at": 0.7,
+            "event": "lock bar"
+          },
+          {
+            "at": 0.9,
+            "event": "tests check"
+          }
+        ],
+        "manim": {
+          "class": "B08_FirstPiece"
+        },
+        "motion_claim": "One policy page; ten question cards in a row, four with a terracotta dot; a lock bar slides over the row; a check for the tests."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 13.397,
+      "audio_file": "mp3/beat-B08.mp3",
+      "render_duration_s": 13.416666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B08.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "3 methods",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Every answer comes back in a fixed format: an answer, a word-for-word quote, its document, and a status. Then plain code checks the quote: it must appear in that document exactly, with the answer's numbers and at least half its key words. If not, the answer never reaches the reader.",
+      "estimated_duration_s": 15.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An answer slip with four field bars slides under the inspection lamp; the lamp lights it; a barrier drops in front of the reader for a slip that fails.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "four field bars"
+          },
+          {
+            "at": 0.5,
+            "event": "lamp check"
+          },
+          {
+            "at": 0.85,
+            "event": "barrier stops a failed slip"
+          }
+        ],
+        "manim": {
+          "class": "B09_ContractChecker"
+        },
+        "motion_claim": "An answer slip with four field bars slides under the inspection lamp; the lamp lights it; a barrier drops in front of the reader for a slip that fails."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 15.488,
+      "audio_file": "mp3/beat-B09.mp3",
+      "render_duration_s": 15.5,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "3 methods",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Next, it becomes an agent. Claude answers; the checker checks. On a failed check, Claude gets one retry with the checker's reason. If that fails too, ClaimCheck refuses. It stops on a checked quote, a refusal, or three model calls, never because the model says it's done.",
+      "estimated_duration_s": 14.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A loop track: answer, check, retry; three budget tokens drain one by one; the loop exits at a stop sign.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "loop draws"
+          },
+          {
+            "at": 0.45,
+            "event": "retry arc"
+          },
+          {
+            "at": 0.75,
+            "event": "three tokens"
+          }
+        ],
+        "manim": {
+          "class": "B10_AgentLoop"
+        },
+        "motion_claim": "A loop track: answer, check, retry; three budget tokens drain one by one; the loop exits at a stop sign."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 14.699,
+      "audio_file": "mp3/beat-B10.mp3",
+      "render_duration_s": 14.708333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B10.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "3 methods",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Its tools can only read: search the claim file, and open one section. A permission list, written in code, allows those two and refuses everything else. It can't write, send, or decide coverage.",
+      "estimated_duration_s": 10.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two tools undock from a tool block and pass a gate; a third parcel (send) is stopped by the gate's barrier.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "two tools pass"
+          },
+          {
+            "at": 0.6,
+            "event": "barrier stops the parcel"
+          }
+        ],
+        "manim": {
+          "class": "B11_ReadOnlyTools"
+        },
+        "motion_claim": "Two tools undock from a tool block and pass a gate; a third parcel (send) is stopped by the gate's barrier."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 11.285,
+      "audio_file": "mp3/beat-B11.mp3",
+      "render_duration_s": 11.291666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B11.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "3 methods",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then the human gate. The examiner sees the answer beside its highlighted quote, and approves, rejects, or sends it back, and that decision is saved with exactly what they saw. A person decides coverage; ClaimCheck only finds and quotes.",
+      "estimated_duration_s": 11.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A document with a highlighted quote; the approval stamp comes down; the stamped record drops into a drawer.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "highlighted quote"
+          },
+          {
+            "at": 0.45,
+            "event": "stamp"
+          },
+          {
+            "at": 0.7,
+            "event": "record filed"
+          }
+        ],
+        "manim": {
+          "class": "B12_HumanGate"
+        },
+        "motion_claim": "A document with a highlighted quote; the approval stamp comes down; the stamped record drops into a drawer."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 13.525,
+      "audio_file": "mp3/beat-B12.mp3",
+      "render_duration_s": 13.541666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B12.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B13",
+      "act": "3 methods",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "All the data is synthetic, written for this project, with no real claims or customer data. I'll grow it into a full claim file, with thirty to fifty questions, a third of them traps, some written by someone other than me.",
+      "estimated_duration_s": 12.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A crate fills with four kinds of pages; question cards stack beside it, a third marked as traps.",
+        "show": [
+          {
+            "at": 0.25,
+            "event": "pages drop into the crate"
+          },
+          {
+            "at": 0.65,
+            "event": "question cards stack"
+          }
+        ],
+        "manim": {
+          "class": "B13_Data"
+        },
+        "motion_claim": "A crate fills with four kinds of pages; question cards stack beside it, a third marked as traps."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 12.416,
+      "audio_file": "mp3/beat-B13.mp3",
+      "render_duration_s": 12.416666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B13.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B14",
+      "act": "3 methods",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Step by step. One: get an API key and run Claude on the ten frozen questions. Two: grow the data and freeze a held-out set. Three: build the loop, tools and gate, tests first. Four: tune prompts on the rest, logging each change with its score. Five: one scored run on the held-out set.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Five crates on a rail; each moves forward and gets a step marker as it is named; the last goes into a vault.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "step 1"
+          },
+          {
+            "at": 0.3,
+            "event": "step 2"
+          },
+          {
+            "at": 0.5,
+            "event": "step 3"
+          },
+          {
+            "at": 0.7,
+            "event": "step 4"
+          },
+          {
+            "at": 0.9,
+            "event": "step 5"
+          }
+        ],
+        "manim": {
+          "class": "B14_Steps"
+        },
+        "motion_claim": "Five crates on a rail; each moves forward and gets a step marker as it is named; the last goes into a vault."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 15.872,
+      "audio_file": "mp3/beat-B14.mp3",
+      "render_duration_s": 15.875,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B14.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B15",
+      "act": "3 methods",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Do I have what I need? Already in hand: Python, the Anthropic SDK, Claude Code and GitHub, and a laptop, which is enough because the model runs on Anthropic's servers. Still unresolved: an API key with token credits, which is step one. I estimate a ten-question run at under two dollars. And I need a second person to write some of the questions.",
+      "estimated_duration_s": 19.1,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two columns. 'have': the four tool logos with a check, and the workstation ('compute') with a check. 'unresolved': an empty budget tray ('API key', 'under $2, est.') and a stack of blank question cards ('second writer').",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "have: logos, check"
+          },
+          {
+            "at": 0.4,
+            "event": "compute check"
+          },
+          {
+            "at": 0.5,
+            "event": "unresolved column"
+          },
+          {
+            "at": 0.6,
+            "event": "API key tray"
+          },
+          {
+            "at": 0.9,
+            "event": "second writer"
+          }
+        ],
+        "manim": {
+          "class": "B15_Resources"
+        },
+        "motion_claim": "Two columns. 'have': the four tool logos with a check, and the workstation ('compute') with a check. 'unresolved': an empty budget tray ('API key', 'under $2, est.') and a stack of blank question cards ('second writer')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 18.453,
+      "audio_file": "mp3/beat-B15.mp3",
+      "render_duration_s": 18.458333333333332,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B15.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B16",
+      "act": "4 evaluation",
+      "lane": "card",
+      "proof_gate": "CARD",
+      "narration_text": "Part four: how I'll know it worked. Each question gets one of four grades against its frozen gold answer: correct; caught, when the file has no answer and the checker blocks the one given; missed, when the answer was there but the reader got nothing; and wrong, when a wrong answer reaches the reader. Today's no-model baseline: five correct, none caught, one missed, four wrong.",
+      "estimated_duration_s": 19.7,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "report rows land"
+          },
+          {
+            "at": 0.62,
+            "event": "lens settles on Wrong"
+          }
+        ],
+        "remotion": {
+          "pattern": "ShowTellCard",
+          "props": {
+            "kind": "focus",
+            "heading": "Baseline run, Nov 23, 2026",
+            "items": [
+              {
+                "label": "Correct",
+                "value": "5",
+                "sub": ""
+              },
+              {
+                "label": "Caught",
+                "value": "0",
+                "sub": ""
+              },
+              {
+                "label": "Missed",
+                "value": "1",
+                "sub": ""
+              },
+              {
+                "label": "Wrong",
+                "value": "4",
+                "sub": ""
+              }
+            ],
+            "focus": 3,
+            "cues": [
+              0.303,
+              0.556,
+              0.662
+            ],
+            "durationSeconds": 18.24
+          }
+        }
+      },
+      "motion_claim": "The lens walks the four grades of the real baseline report and settles on Wrong: the number that matters.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "ShowTellCard focus: one real report, four rows."
+      },
+      "actual_duration_s": 18.24,
+      "audio_file": "mp3/beat-B16.mp3",
+      "render_duration_s": 18.25,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B16.mp4",
+        "filled_by": "media",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B17",
+      "act": "4 evaluation",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "All four wrong answers quoted the policy word for word, so all four passed the checker. Only grading against gold caught them. The checker makes an answer traceable. It doesn't make it right.",
+      "estimated_duration_s": 10.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A slip passes the lamp with a check, then meets the gold slip in a comparison tray: they don't match, and a cross lands.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "lamp check"
+          },
+          {
+            "at": 0.55,
+            "event": "gold comparison"
+          },
+          {
+            "at": 0.7,
+            "event": "cross"
+          }
+        ],
+        "manim": {
+          "class": "B17_TraceableNotRight"
+        },
+        "motion_claim": "A slip passes the lamp with a check, then meets the gold slip in a comparison tray: they don't match, and a cross lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 10.688,
+      "audio_file": "mp3/beat-B17.mp3",
+      "render_duration_s": 10.708333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B17.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B18",
+      "act": "4 evaluation",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So here's the pass bar, on the held-out set. Zero wrong answers reach the reader. Every not-in-the-documents trap is refused: one hundred percent. And every answerable question is answered correctly, also one hundred percent. Refusing everything would pass the first two and fail the third.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three lamps on a gate light one by one: 0 wrong answers, 100% of traps refused, 100% answered correctly; a 'refuse all' panel lights only the first two.",
+        "show": [
+          {
+            "at": 0.25,
+            "event": "lamp 1"
+          },
+          {
+            "at": 0.45,
+            "event": "lamp 2"
+          },
+          {
+            "at": 0.65,
+            "event": "lamp 3"
+          },
+          {
+            "at": 0.85,
+            "event": "refuse all fails the third"
+          }
+        ],
+        "manim": {
+          "class": "B18_TheBar"
+        },
+        "motion_claim": "Three lamps on a gate light one by one: 0 wrong answers, 100% of traps refused, 100% answered correctly; a 'refuse all' panel lights only the first two."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 15.488,
+      "audio_file": "mp3/beat-B18.mp3",
+      "render_duration_s": 15.5,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B18.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B19",
+      "act": "4 evaluation",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "It didn't work if it misses any one of those three numbers. And I'll break it on purpose: replay an answer that quotes the base clause that an endorsement overrides, and show the gold grade catches it.",
+      "estimated_duration_s": 11.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A recorded slip (the overridden clause) is fed back in; the gold tray catches it with a cross.",
+        "show": [
+          {
+            "at": 0.3,
+            "event": "one slip gets through: fail"
+          },
+          {
+            "at": 0.7,
+            "event": "replayed slip caught"
+          }
+        ],
+        "manim": {
+          "class": "B19_BreakItOnPurpose"
+        },
+        "motion_claim": "A recorded slip (the overridden clause) is fed back in; the gold tray catches it with a cross."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 10.389,
+      "audio_file": "mp3/beat-B19.mp3",
+      "render_duration_s": 10.416666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B19.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "B20",
+      "act": "4 evaluation",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "One limit stays: the data is synthetic and mostly mine, so a pass shows the method works on this file, not on real claims.",
+      "estimated_duration_s": 7.3,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The crate of synthetic pages sits inside a dashed boundary; real claims stay outside it.",
+        "show": [
+          {
+            "at": 0.3,
+            "event": "dashed boundary"
+          },
+          {
+            "at": 0.7,
+            "event": "real claims outside"
+          }
+        ],
+        "manim": {
+          "class": "B20_Limit"
+        },
+        "motion_claim": "The crate of synthetic pages sits inside a dashed boundary; real claims stay outside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style: one drawn object or scene on a cream stage per beat, short labels, the voice carries the explanation. Only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 7.445,
+      "audio_file": "mp3/beat-B20.mp3",
+      "render_duration_s": 7.458333333333333,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B20.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Quote it, or refuse. ClaimCheck, by Shreyash Yadav.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Title restate with name, course, and the AI-narration disclosure. Replaces ClaudeTitleOutro, whose @NikBearBrown handle is fixed in the component.",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title types in"
+          },
+          {
+            "at": 0.4,
+            "event": "name, course, disclosure"
+          }
+        ],
+        "manim": {
+          "class": "BOUT_Title"
+        },
+        "motion_claim": "Title restate."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Outro title card."
+      },
+      "actual_duration_s": 4.712,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "render_duration_s": 4.75,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/BOUT.mp4",
+        "filled_by": "manim",
+        "at": "2026-11-23T23:11:50"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+run at 2026-11-23 16:34 EST
+$ python -m claimcheck.eval
+baseline: WRONG 4  MISSED 1  CAUGHT 0  CORRECT 5
+report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/evidence/claimcheck-rerun-2026-11-23/reports/eval_report-2026-11-23-baseline.md

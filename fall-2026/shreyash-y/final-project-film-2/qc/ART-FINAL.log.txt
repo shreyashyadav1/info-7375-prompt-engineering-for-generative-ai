@@ -1,0 +1,34 @@
+[typecheck] wrote /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/TYPECHECK.md
+[typecheck] §8.10 [B16] narration recites the card (1.00) — discuss it, don't read it
+[typecheck] §8.10 BIDEA: SKIP
+[typecheck] §8.10 B00: SKIP
+[typecheck] §8.10 B01: SKIP
+[typecheck] §8.10 B02: SKIP
+[typecheck] §8.10 B02B: SKIP
+[typecheck] §8.10 B03: SKIP
+[typecheck] §8.10 B04: SKIP
+[typecheck] §8.10 B05: SKIP
+[typecheck] §8.10 B06: SKIP
+[typecheck] §8.10 B07A: SKIP
+[typecheck] §8.10 B07: SKIP
+[typecheck] §8.10 B08: SKIP
+[typecheck] §8.10 B09: SKIP
+[typecheck] §8.10 B10: SKIP
+[typecheck] §8.10 B11: SKIP
+[typecheck] §8.10 B12: SKIP
+[typecheck] §8.10 B13: SKIP
+[typecheck] §8.10 B14: SKIP
+[typecheck] §8.10 B15: SKIP
+[typecheck] §8.10 B16: 1.00  ← ADVISORY
+[typecheck] §8.10 B17: SKIP
+[typecheck] §8.10 B18: SKIP
+[typecheck] §8.10 B19: SKIP
+[typecheck] §8.10 B20: SKIP
+[typecheck] §8.10 BOUT: SKIP
+[typecheck] GATE T: PASS
+[art] motion histogram: graphic:23  remotion:2
+[art] SKIN LINT: BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' — COLD OPEN LAW wants ClaudeComposerAsk
+[art] SKIN LINT: BOUT: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro
+[art] build stamp → beat_sheet.json (25/25 filled)
+[art] wrote yadav-shreyash-final-project-film/exports/landscape/yadav-shreyash-final-project-film.mp4  (302.1s, audio: per-beat timeline (source audio preserved), drawtext: no — PIL overlays)
+[art] slots: 25/25 filled — BIDEA:VIDEO B00:MANIM B01:MANIM B02:MANIM B02B:MANIM B03:MANIM B04:MANIM B05:MANIM B06:MANIM B07A:MANIM B07:MANIM B08:MANIM B09:MANIM B10:MANIM B11:MANIM B12:MANIM B13:MANIM B14:MANIM B15:MANIM B16:VIDEO B17:MANIM B18:MANIM B19:MANIM B20:MANIM BOUT:MANIM

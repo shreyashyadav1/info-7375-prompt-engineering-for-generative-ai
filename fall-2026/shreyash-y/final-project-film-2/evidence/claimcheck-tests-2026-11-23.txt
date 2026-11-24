@@ -1,0 +1,26 @@
+run at 2026-11-23 16:34 EST
+$ python -m unittest discover -s tests -v
+test_invented_quote_is_rejected (test_claimcheck.CheckerTests.test_invented_quote_is_rejected) ... ok
+test_number_missing_from_quote_is_rejected (test_claimcheck.CheckerTests.test_number_missing_from_quote_is_rejected) ... ok
+test_refusal_always_passes (test_claimcheck.CheckerTests.test_refusal_always_passes) ... ok
+test_section_references_are_not_treated_as_numbers (test_claimcheck.CheckerTests.test_section_references_are_not_treated_as_numbers) ... ok
+test_short_quote_and_unknown_document_are_rejected (test_claimcheck.CheckerTests.test_short_quote_and_unknown_document_are_rejected) ... ok
+test_unsupported_answer_words_are_rejected (test_claimcheck.CheckerTests.test_unsupported_answer_words_are_rejected) ... ok
+test_verbatim_quote_passes (test_claimcheck.CheckerTests.test_verbatim_quote_passes) ... ok
+test_whitespace_and_curly_quotes_are_normalised (test_claimcheck.CheckerTests.test_whitespace_and_curly_quotes_are_normalised) ... ok
+test_broken_replies_are_rejected (test_claimcheck.ContractTests.test_broken_replies_are_rejected) ... ok
+test_valid_reply_parses (test_claimcheck.ContractTests.test_valid_reply_parses) ... ok
+test_baseline_run_is_offline_and_writes_a_dated_report (test_claimcheck.EvalTests.test_baseline_run_is_offline_and_writes_a_dated_report) ... ok
+test_claude_answerer_stops_cleanly_without_a_key (test_claimcheck.EvalTests.test_claude_answerer_stops_cleanly_without_a_key) ... ok
+test_question_set_is_still_frozen (test_claimcheck.EvalTests.test_question_set_is_still_frozen) ... ok
+test_set_has_ten_questions_and_at_least_a_third_are_traps (test_claimcheck.EvalTests.test_set_has_ten_questions_and_at_least_a_third_are_traps) ... ok
+test_answering_a_not_in_documents_question (test_claimcheck.GradingTests.test_answering_a_not_in_documents_question) ... ok
+test_correct_answer_and_missed_answer (test_claimcheck.GradingTests.test_correct_answer_and_missed_answer) ... ok
+test_real_quote_from_the_wrong_clause_passes_the_checker_but_grades_wrong (test_claimcheck.GradingTests.test_real_quote_from_the_wrong_clause_passes_the_checker_but_grades_wrong) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.003s
+
+OK
+baseline: WRONG 4  MISSED 1  CAUGHT 0  CORRECT 5
+report: /var/folders/r0/9dx27nmx021b7_yd_5cmc1pm0000gn/T/tmp59mlckzt/eval_report-2026-11-23-baseline.md

@@ -1,0 +1,1628 @@
+[run] skip B00_ClaimFile — B00 already filled
+[run] skip B01_QuoteOrRefuse — B01 already filled
+[run] skip B03_Roadmap — B03 already filled
+[run] skip B04_SearchEngines — B04 already filled
+[run] skip B05_LegalTools — B05 already filled
+[run] skip B06_RealNotRight — B06 already filled
+[run] skip B08_FirstPiece — B08 already filled
+[run] skip B09_ContractChecker — B09 already filled
+[run] skip B10_AgentLoop — B10 already filled
+[run] skip B11_ReadOnlyTools — B11 already filled
+[run] skip B12_HumanGate — B12 already filled
+[run] skip B13_Data — B13 already filled
+[run] skip B14_Steps — B14 already filled
+[run] skip B17_TraceableNotRight — B17 already filled
+[run] skip B20_Limit — B20 already filled
+[run] skip BOUT_Title — BOUT already filled
+[run] GATE L — beat-mix lint
+[beat-lint] clean — beat mix OK (beat_sheet.json)
+[run] GATE SHAPE — finance chart-shape enforcement
+[gate-shape] skip — not a finance reel (beat_sheet.json)
+[run] GATE A — static pre-flight
+
+[static-check] 1 scene(s): 1 clean · 0 warn · 0 error
+
+[static-check] 1 scene(s): 1 clean · 0 warn · 0 error
+
+[static-check] 1 scene(s): 1 clean · 0 warn · 0 error
+
+[static-check] 1 scene(s): 1 clean · 0 warn · 0 error
+
+[static-check] 1 scene(s): 1 clean · 0 warn · 0 error
+
+[static-check] 1 scene(s): 1 clean · 0 warn · 0 error
+
+[static-check] 1 scene(s): 1 clean · 0 warn · 0 error
+[run] GATE W — WCAG contrast + margins + text-overlap (independent second check)
+[gateW] B02_LookAlike clean
+[gateW] B02B_Consequence clean
+[gateW] B07A_TheGap clean
+[gateW] B07_AddsTheCheck clean
+[gateW] B15_Resources clean
+[gateW] B18_TheBar clean
+[gateW] B19_BreakItOnPurpose clean
+[run] rendering B02_LookAlike
+Manim Community v0.20.1
+
+[11/23/26 19:55:49] INFO     Animation 0 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1697911619_2793185786_22209394                     
+                             27)                                                
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                             INFO     Animation 1 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2_LookAlike/1167814662_266                         
+                             9662379_861724445.mp4'                             
+[11/23/26 19:55:50] INFO     Animation 2 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2_LookAlike/1167814662_163                         
+                             5483589_4152555291.mp4'                            
+Animation 3: FadeIn(Text('same look')):   0%|          | 0/10 [00:00<?, ?it/s]                                                                                                  INFO     Animation 3 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2_LookAlike/1167814662_423                         
+                             1700547_954397629.mp4'                             
+                    INFO     Animation 4 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2_LookAlike/1167814662_425                         
+                             8070474_3977739160.mp4'                            
+Animation 5: Create(Line), etc.:   0%|          | 0/15 [00:00<?, ?it/s]                                                                                           INFO     Animation 5 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2_LookAlike/1167814662_344                         
+                             6932154_438123460.mp4'                             
+Animation 6: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                                              INFO     Animation 6 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2_LookAlike/1167814662_377                         
+                             369010_2853395226.mp4'                             
+Animation 7: FadeIn(Text('right clause')), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                       [11/23/26 19:55:51] INFO     Animation 7 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2_LookAlike/1167814662_360                         
+                             155479_36844583.mp4'                               
+                    INFO     Animation 8 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2_LookAlike/1167814662_134                         
+                             3095459_832615499.mp4'                             
+                    INFO     Combining to Movie file.   scene_file_writer.py:753
+                    INFO                                scene_file_writer.py:904
+                             File ready at                                      
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/B02_LookAlike.mp4'                             
+                                                                                
+                    INFO     Rendered B02_LookAlike                 scene.py:278
+                             Played 9 animations                                
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]                                                                                          /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:149: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  if float(mob.get_stroke_opacity()) <= 0.02:
+Animation 3: FadeIn(Text('same look')):   0%|          | 0/6 [00:00<?, ?it/s]                                                                             Animation 5: Create(Line), etc.:   0%|          | 0/9 [00:00<?, ?it/s]                                                                      Animation 6: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                         Animation 7: FadeIn(Text('right clause')), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                      [audit] scenes: 13 snapshots → CLEAN
+[audit] report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/layout_audit.md
+[run] rendering B02B_Consequence
+Manim Community v0.20.1
+
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/20 [00:00<?, ?it/s]Animation 0: FadeIn(VGroup of 3 submobjects), etc.:  35%|███▌      | 7/20 [00:00<00:00, 66.94it/s]Animation 0: FadeIn(VGroup of 3 submobjects), etc.:  70%|███████   | 14/20 [00:00<00:00, 66.78it/s]                                                                                                   [11/23/26 19:55:54] INFO     Animation 0 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1697911619_                         
+                             4018289124_2220939427.mp4'                         
+                    INFO     Animation 1 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             1580034012_3840058549.mp4'                         
+Animation 2: FadeIn(VGroup of 3 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]                                                                                                       INFO     Animation 2 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             1019411241_997275611.mp4'                          
+Animation 3: _MethodAnimation(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]                                                                                                                 INFO     Animation 3 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             3953336980_1170355568.mp4'                         
+Animation 4: _MethodAnimation(VGroup of 3 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]                                                                                                   [11/23/26 19:55:55] INFO     Animation 4 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             4280473854_1170355568.mp4'                         
+Animation 5: FadeOut(VGroup of 3 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]                                                                                                              INFO     Animation 5 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             260069806_264580437.mp4'                           
+                    INFO     Animation 6 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             3339680726_3553512608.mp4'                         
+Animation 7: FadeIn(VGroup of 3 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]                                                                                   [11/23/26 19:55:56] INFO     Animation 7 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             2950655258_3686740398.mp4'                         
+Animation 8: _MethodAnimation(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]                                                                                                                 INFO     Animation 8 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             4190349682_713817810.mp4'                          
+Animation 9: _MethodAnimation(VGroup of 3 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]                                                                                                                       INFO     Animation 9 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             4136853664_713817810.mp4'                          
+Animation 10: FadeOut(VGroup of 3 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]                                                                                                               INFO     Animation 10 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             550630583_1681400811.mp4'                          
+[11/23/26 19:55:57] INFO     Animation 11 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             3511873606_159414791.mp4'                          
+Animation 12: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                                               INFO     Animation 12 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             3800301149_3493098488.mp4'                         
+[11/23/26 19:55:58] INFO     Animation 13 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             1189035352_3065616473.mp4'                         
+Animation 14: FadeIn(Text('looks checked')):   0%|          | 0/8 [00:00<?, ?it/s]                                                                                                      INFO     Animation 14 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             1940328491_2602037247.mp4'                         
+[11/23/26 19:55:59] INFO     Animation 15 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             2B_Consequence/1167814662_                         
+                             823780125_3066544867.mp4'                          
+                    INFO     Combining to Movie file.   scene_file_writer.py:753
+                    INFO                                scene_file_writer.py:904
+                             File ready at                                      
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/B02B_Consequence.mp4'                          
+                                                                                
+                    INFO     Rendered B02B_Consequence              scene.py:278
+                             Played 16 animations                               
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]                                                                                          /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:149: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  if float(mob.get_stroke_opacity()) <= 0.02:
+Animation 2: FadeIn(VGroup of 3 submobjects):   0%|          | 0/4 [00:00<?, ?it/s]                                                                                   Animation 3: _MethodAnimation(VGroup of 3 submobjects):   0%|          | 0/5 [00:00<?, ?it/s]                                                                                             Animation 4: _MethodAnimation(VGroup of 3 submobjects), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                                   Animation 5: FadeOut(VGroup of 3 submobjects), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                          Animation 7: FadeIn(VGroup of 3 submobjects):   0%|          | 0/4 [00:00<?, ?it/s]                                                                                   Animation 8: _MethodAnimation(VGroup of 3 submobjects):   0%|          | 0/5 [00:00<?, ?it/s]                                                                                             Animation 9: _MethodAnimation(VGroup of 3 submobjects), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                                   Animation 10: FadeOut(VGroup of 3 submobjects), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                           Animation 12: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                          Animation 14: FadeIn(Text('looks checked')):   0%|          | 0/5 [00:00<?, ?it/s]                                                                                  [audit] scenes: 21 snapshots → CLEAN
+[audit] report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/layout_audit.md
+[run] rendering B07A_TheGap
+Manim Community v0.20.1
+
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/20 [00:00<?, ?it/s]Animation 0: FadeIn(VGroup of 3 submobjects), etc.:  25%|██▌       | 5/20 [00:00<00:00, 49.15it/s]Animation 0: FadeIn(VGroup of 3 submobjects), etc.:  50%|█████     | 10/20 [00:00<00:00, 48.59it/s]Animation 0: FadeIn(VGroup of 3 submobjects), etc.:  75%|███████▌  | 15/20 [00:00<00:00, 47.09it/s]Animation 0: FadeIn(VGroup of 3 submobjects), etc.: 100%|██████████| 20/20 [00:00<00:00, 46.89it/s]                                                                                                   [11/23/26 19:56:02] INFO     Animation 0 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7A_TheGap/1697911619_12482                         
+                             39437_1806162031.mp4'                              
+[11/23/26 19:56:03] INFO     Animation 1 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7A_TheGap/1167814662_31568                         
+                             08256_428183792.mp4'                               
+Animation 2: LaggedStart(Group):   0%|          | 0/20 [00:00<?, ?it/s]Animation 2: LaggedStart(Group):  45%|████▌     | 9/20 [00:00<00:00, 82.16it/s]Animation 2: LaggedStart(Group):  90%|█████████ | 18/20 [00:00<00:00, 82.01it/s]                                                                                [11/23/26 19:56:04] INFO     Animation 2 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7A_TheGap/1167814662_14180                         
+                             83962_1968255860.mp4'                              
+[11/23/26 19:56:06] INFO     Animation 3 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7A_TheGap/1167814662_37213                         
+                             38536_363826935.mp4'                               
+                    INFO     Animation 4 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7A_TheGap/1167814662_27131                         
+                             85740_3587320289.mp4'                              
+Animation 5: GrowFromCenter(Dot), etc.:   0%|          | 0/12 [00:00<?, ?it/s]Animation 5: GrowFromCenter(Dot), etc.:  83%|████████▎ | 10/12 [00:00<00:00, 98.52it/s]                                                                                       [11/23/26 19:56:07] INFO     Animation 5 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7A_TheGap/1167814662_10257                         
+                             53888_1727191748.mp4'                              
+[11/23/26 19:56:09] INFO     Animation 6 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7A_TheGap/1167814662_40102                         
+                             40785_2540290839.mp4'                              
+Animation 7: Create(Circle):   0%|          | 0/9 [00:00<?, ?it/s]                                                                                      INFO     Animation 7 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7A_TheGap/1167814662_38918                         
+                             0316_721766765.mp4'                                
+[11/23/26 19:56:10] INFO     Animation 8 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7A_TheGap/1167814662_14443                         
+                             4722_2486057484.mp4'                               
+                    INFO     Combining to Movie file.   scene_file_writer.py:753
+                    INFO                                scene_file_writer.py:904
+                             File ready at                                      
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/B07A_TheGap.mp4'                               
+                                                                                
+                    INFO     Rendered B07A_TheGap                   scene.py:278
+                             Played 9 animations                                
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]Animation 0: FadeIn(VGroup of 3 submobjects), etc.:  92%|█████████▏| 11/12 [00:00<00:00, 105.37it/s]                                                                                                    /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:149: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  if float(mob.get_stroke_opacity()) <= 0.02:
+Animation 2: LaggedStart(Group):   0%|          | 0/12 [00:00<?, ?it/s]                                                                       Animation 5: GrowFromCenter(Dot), etc.:   0%|          | 0/8 [00:00<?, ?it/s]                                                                             Animation 7: Create(Circle):   0%|          | 0/6 [00:00<?, ?it/s]                                                                  [audit] scenes: 14 snapshots → CLEAN
+[audit] report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/layout_audit.md
+[run] rendering B07_AddsTheCheck
+Manim Community v0.20.1
+
+[11/23/26 19:56:13] INFO     Animation 0 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1697911619_3994409252_18061620                     
+                             31)                                                
+Animation 0: FadeIn(VGroup of 4 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                       INFO     Animation 1 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_3243832240_40302883                     
+                             58)                                                
+Animation 1: FadeIn(Text('the check')):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                 INFO     Animation 2 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             3606740751_3442180897.mp4'                         
+Animation 3: _MethodAnimation(VGroup of 7 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]Animation 3: _MethodAnimation(VGroup of 7 submobjects):  93%|█████████▎| 14/15 [00:00<00:00, 132.21it/s]                                                                                                        [11/23/26 19:56:14] INFO     Animation 3 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             702470764_4150188585.mp4'                          
+Animation 4: Create(Line):   0%|          | 0/12 [00:00<?, ?it/s]                                                                                     INFO     Animation 4 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             1426957930_1212681131.mp4'                         
+[11/23/26 19:56:15] INFO     Animation 5 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             4171664937_426211000.mp4'                          
+                    INFO     Animation 6 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             2818294073_72254938.mp4'                           
+Animation 7: FadeIn(VGroup of 2 submobjects):   0%|          | 0/10 [00:00<?, ?it/s]                                                                                                        INFO     Animation 7 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             1678676820_3909261072.mp4'                         
+Animation 8: Create(Line):   0%|          | 0/8 [00:00<?, ?it/s]                                                                                    INFO     Animation 8 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             3735068246_384460067.mp4'                          
+[11/23/26 19:56:16] INFO     Animation 9 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             1596509376_372372567.mp4'                          
+Animation 10: FadeIn(RoundedRectangle), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                                        INFO     Animation 10 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             2773412235_1923888379.mp4'                         
+Animation 11: LaggedStart(Group):   0%|          | 0/20 [00:00<?, ?it/s]Animation 11: LaggedStart(Group):  95%|█████████▌| 19/20 [00:00<00:00, 187.39it/s]                                                                                  [11/23/26 19:56:17] INFO     Animation 11 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             1571490732_3825666504.mp4'                         
+                    INFO     Animation 12 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             690152390_627692116.mp4'                           
+                    INFO     Combining to Movie file.   scene_file_writer.py:753
+                    INFO                                scene_file_writer.py:904
+                             File ready at                                      
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/B07_AddsTheCheck.mp4'                          
+                                                                                
+                    INFO     Rendered B07_AddsTheCheck              scene.py:278
+                             Played 13 animations                               
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+Animation 0: FadeIn(VGroup of 4 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]                                                                                   Animation 1: FadeIn(Text('the check')):   0%|          | 0/5 [00:00<?, ?it/s]                                                                             /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:149: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  if float(mob.get_stroke_opacity()) <= 0.02:
+Animation 3: _MethodAnimation(VGroup of 7 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]                                                                                             Animation 4: Create(Line):   0%|          | 0/8 [00:00<?, ?it/s]                                                                Animation 7: FadeIn(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]                                                                                   Animation 8: Create(Line):   0%|          | 0/5 [00:00<?, ?it/s]                                                                Animation 10: FadeIn(RoundedRectangle), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                   Animation 11: LaggedStart(Group):   0%|          | 0/12 [00:00<?, ?it/s]                                                                        [audit] scenes: 18 snapshots → CLEAN
+[audit] report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/layout_audit.md
+[run] rendering B15_Resources
+Manim Community v0.20.1
+
+Animation 0: FadeIn(Text('have')), etc.:   0%|          | 0/15 [00:00<?, ?it/s]Animation 0: FadeIn(Text('have')), etc.:  73%|███████▎  | 11/15 [00:00<00:00, 105.07it/s]                                                                                         [11/23/26 19:56:20] INFO     Animation 0 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1697911619_372                         
+                             2678829_3421978267.mp4'                            
+Animation 1: Create(VGroup of 2 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]                                                                                                       INFO     Animation 1 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_237                         
+                             8868726_822209304.mp4'                             
+                    INFO     Animation 2 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_364                         
+                             5111946_132171127.mp4'                             
+Animation 3: LaggedStart(Group):   0%|          | 0/20 [00:00<?, ?it/s]Animation 3: LaggedStart(Group):  30%|███       | 6/20 [00:00<00:00, 54.75it/s]Animation 3: LaggedStart(Group):  60%|██████    | 12/20 [00:00<00:00, 52.80it/s]Animation 3: LaggedStart(Group):  90%|█████████ | 18/20 [00:00<00:00, 49.98it/s]                                                                                [11/23/26 19:56:21] INFO     Animation 3 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_123                         
+                             1680618_3105603866.mp4'                            
+                    INFO     Animation 4 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_335                         
+                             4673836_558288569.mp4'                             
+Animation 5: Create(VGroup of 2 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]                                                                                                       INFO     Animation 5 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_225                         
+                             0885875_3465088480.mp4'                            
+[11/23/26 19:56:22] INFO     Animation 6 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_242                         
+                             2190810_2516776846.mp4'                            
+Animation 7: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                                              INFO     Animation 7 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_911                         
+                             603883_2971468782.mp4'                             
+[11/23/26 19:56:23] INFO     Animation 8 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_149                         
+                             4843438_338831536.mp4'                             
+                    INFO     Animation 9 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_312                         
+                             8518007_1019201848.mp4'                            
+Animation 10: FadeIn(Text('unresolved')), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                      [11/23/26 19:56:24] INFO     Animation 10 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_297                         
+                             5466702_2953063097.mp4'                            
+Animation 11: FadeIn(VGroup of 1 submobjects), etc.:   0%|          | 0/12 [00:00<?, ?it/s]                                                                                                               INFO     Animation 11 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_205                         
+                             4196461_1691612210.mp4'                            
+[11/23/26 19:56:25] INFO     Animation 12 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_149                         
+                             7386302_965843394.mp4'                             
+Animation 13: FadeIn(Text('under $2, est.')):   0%|          | 0/8 [00:00<?, ?it/s]                                                                                   [11/23/26 19:56:26] INFO     Animation 13 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_400                         
+                             9801024_1133932251.mp4'                            
+                    INFO     Animation 14 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_684                         
+                             139194_1713554883.mp4'                             
+Animation 15: LaggedStart(Group), etc.:   0%|          | 0/15 [00:00<?, ?it/s]Animation 15: LaggedStart(Group), etc.:  87%|████████▋ | 13/15 [00:00<00:00, 129.47it/s]                                                                                        [11/23/26 19:56:27] INFO     Animation 15 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_271                         
+                             5725677_1230440268.mp4'                            
+[11/23/26 19:56:28] INFO     Animation 16 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             5_Resources/1167814662_322                         
+                             9164718_673810727.mp4'                             
+                    INFO     Combining to Movie file.   scene_file_writer.py:753
+                    INFO                                scene_file_writer.py:904
+                             File ready at                                      
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/B15_Resources.mp4'                             
+                                                                                
+                    INFO     Rendered B15_Resources                 scene.py:278
+                             Played 17 animations                               
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+Animation 0: FadeIn(Text('have')), etc.:   0%|          | 0/9 [00:00<?, ?it/s]                                                                              Animation 1: Create(VGroup of 2 submobjects):   0%|          | 0/5 [00:00<?, ?it/s]                                                                                   /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:149: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  if float(mob.get_stroke_opacity()) <= 0.02:
+Animation 3: LaggedStart(Group):   0%|          | 0/12 [00:00<?, ?it/s]                                                                       /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:154: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  anchors = mob.get_anchors()
+Animation 5: Create(VGroup of 2 submobjects):   0%|          | 0/5 [00:00<?, ?it/s]                                                                                   Animation 7: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                         Animation 10: FadeIn(Text('unresolved')), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                     Animation 11: FadeIn(VGroup of 1 submobjects), etc.:   0%|          | 0/8 [00:00<?, ?it/s]                                                                                          Animation 13: FadeIn(Text('under $2, est.')):   0%|          | 0/5 [00:00<?, ?it/s]                                                                                   Animation 15: LaggedStart(Group), etc.:   0%|          | 0/9 [00:00<?, ?it/s]                                                                             [audit] scenes: 25 snapshots → CLEAN
+[audit] report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/layout_audit.md
+[run] rendering B18_TheBar
+Manim Community v0.20.1
+
+Animation 0: FadeIn(RoundedRectangle), etc.:   0%|          | 0/15 [00:00<?, ?it/s]Animation 0: FadeIn(RoundedRectangle), etc.: 100%|██████████| 15/15 [00:00<00:00, 148.92it/s]                                                                                             [11/23/26 19:56:30] INFO     Animation 0 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1697911619_622494                         
+                             375_4005982038.mp4'                                
+[11/23/26 19:56:31] INFO     Animation 1 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_325337                         
+                             3222_2620255817.mp4'                               
+Animation 2: GrowFromCenter(Circle), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                                     INFO     Animation 2 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_326591                         
+                             4405_1384902973.mp4'                               
+[11/23/26 19:56:32] INFO     Animation 3 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_327068                         
+                             5495_4226853480.mp4'                               
+Animation 4: GrowFromCenter(Circle), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                                     INFO     Animation 4 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_881635                         
+                             134_2519201796.mp4'                                
+[11/23/26 19:56:33] INFO     Animation 5 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_335902                         
+                             7680_805400022.mp4'                                
+                    INFO     Animation 6 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_350348                         
+                             995_2133628908.mp4'                                
+Animation 7: GrowFromCenter(Circle), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                 [11/23/26 19:56:34] INFO     Animation 7 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_259855                         
+                             8004_3786025476.mp4'                               
+[11/23/26 19:56:35] INFO     Animation 8 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_217034                         
+                             9807_1075348092.mp4'                               
+Animation 9: FadeIn(RoundedRectangle), etc.:   0%|          | 0/12 [00:00<?, ?it/s]                                                                                                       INFO     Animation 9 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_121549                         
+                             919_1870835386.mp4'                                
+Animation 10: Create(VGroup of 2 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]                                                                                    [11/23/26 19:56:36] INFO     Animation 10 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_135400                         
+                             7328_963878424.mp4'                                
+[11/23/26 19:56:37] INFO     Animation 11 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_415870                         
+                             6913_3591971271.mp4'                               
+                    INFO     Combining to Movie file.   scene_file_writer.py:753
+                    INFO                                scene_file_writer.py:904
+                             File ready at                                      
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/B18_TheBar.mp4'                                
+                                                                                
+                    INFO     Rendered B18_TheBar                    scene.py:278
+                             Played 12 animations                               
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+Animation 0: FadeIn(RoundedRectangle), etc.:   0%|          | 0/9 [00:00<?, ?it/s]                                                                                  /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:149: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  if float(mob.get_stroke_opacity()) <= 0.02:
+Animation 2: GrowFromCenter(Circle), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                Animation 4: GrowFromCenter(Circle), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                Animation 7: GrowFromCenter(Circle), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                Animation 9: FadeIn(RoundedRectangle), etc.:   0%|          | 0/8 [00:00<?, ?it/s]                                                                                  Animation 10: Create(VGroup of 2 submobjects):   0%|          | 0/5 [00:00<?, ?it/s]                                                                                    [audit] scenes: 18 snapshots → CLEAN
+[audit] report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/layout_audit.md
+[run] rendering B19_BreakItOnPurpose
+Manim Community v0.20.1
+
+[11/23/26 19:56:39] INFO     Animation 0 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1697911619_2307612928_40059820                     
+                             38)                                                
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                             INFO     Animation 1 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             9_BreakItOnPurpose/1167814                         
+                             662_2008772765_2132325939.                         
+                             mp4'                                               
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_792166302_119114696                     
+                             2)                                                 
+Animation 2: FadeIn(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                       INFO     Animation 3 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_1227605445_40855654                     
+                             68)                                                
+Animation 3: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                                 INFO     Animation 4 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_3285922497_41024286                     
+                             70)                                                
+Animation 4: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]                                                                                         [11/23/26 19:56:40] INFO     Animation 5 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             9_BreakItOnPurpose/1167814                         
+                             662_575345986_4045711514.m                         
+                             p4'                                                
+Animation 6: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                                              INFO     Animation 6 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             9_BreakItOnPurpose/1167814                         
+                             662_136763620_1745433081.m                         
+                             p4'                                                
+                    INFO     Animation 7 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             9_BreakItOnPurpose/1167814                         
+                             662_2701245390_3123861205.                         
+                             mp4'                                               
+Animation 8: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/20 [00:00<?, ?it/s]Animation 8: _MethodAnimation(VGroup of 2 submobjects):  75%|███████▌  | 15/20 [00:00<00:00, 144.04it/s]                                                                                                        [11/23/26 19:56:41] INFO     Animation 8 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             9_BreakItOnPurpose/1167814                         
+                             662_1410205855_1130227150.                         
+                             mp4'                                               
+[11/23/26 19:56:42] INFO     Animation 9 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             9_BreakItOnPurpose/1167814                         
+                             662_2481475672_195683171.m                         
+                             p4'                                                
+Animation 10: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                                               INFO     Animation 10 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             9_BreakItOnPurpose/1167814                         
+                             662_2158493163_2325754453.                         
+                             mp4'                                               
+                    INFO     Animation 11 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             9_BreakItOnPurpose/1167814                         
+                             662_1909946825_2436040051.                         
+                             mp4'                                               
+                    INFO     Combining to Movie file.   scene_file_writer.py:753
+[11/23/26 19:56:43] INFO                                scene_file_writer.py:904
+                             File ready at                                      
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/B19_BreakItOnPurpose.m                         
+                             p4'                                                
+                                                                                
+                    INFO     Rendered B19_BreakItOnPurpose          scene.py:278
+                             Played 12 animations                               
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+Animation 0: FadeIn(VGroup of 3 submobjects), etc.:   0%|          | 0/9 [00:00<?, ?it/s]                                                                                         /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:149: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  if float(mob.get_stroke_opacity()) <= 0.02:
+Animation 2: FadeIn(VGroup of 2 submobjects):   0%|          | 0/5 [00:00<?, ?it/s]                                                                                   Animation 3: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/14 [00:00<?, ?it/s]                                                                                              Animation 4: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                         Animation 6: FadeIn(VGroup of 2 submobjects), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                         Animation 8: _MethodAnimation(VGroup of 2 submobjects):   0%|          | 0/12 [00:00<?, ?it/s]                                                                                              Animation 10: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                          [audit] scenes: 17 snapshots → CLEAN
+[audit] report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/layout_audit.md
+[remotion] BEHIND: 4.0.535 installed, 4.0.546 is latest. Bear's rule: use the latest Remotion. Run `./art remotion-upgrade`, then re-render and re-gate.
+[remotion] BIDEA: filled already (skip)
+[remotion] B16: filled already (skip)
+[remotion] done — run `bash scripts/run.sh <REEL>` to compile the cut
+[art] compiled B02  MANIM     5.5s  ← B02.mp4
+[art] compiled B02B  MANIM    10.2s  ← B02B.mp4
+[art] compiled B07A  MANIM    15.3s  ← B07A.mp4
+[art] compiled B07  MANIM    11.7s  ← B07.mp4
+[art] compiled B15  MANIM    18.5s  ← B15.mp4
+[art] compiled B18  MANIM    15.3s  ← B18.mp4
+[art] compiled B19  MANIM    10.4s  ← B19.mp4
+[art] motion histogram: graphic:23  remotion:2
+[art] SKIN LINT: BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' — COLD OPEN LAW wants ClaudeComposerAsk
+[art] SKIN LINT: BOUT: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro
+[art] build stamp → beat_sheet.json (25/25 filled)
+[art] QC contact sheet → /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/qc-sheet.png
+[art] wrote /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/yadav-shreyash-final-project-film-slate.mp4  (300.9s, audio: per-beat timeline (source audio preserved), drawtext: no — PIL overlays)
+[art] slots: 25/25 filled — BIDEA:VIDEO B00:MANIM B01:MANIM B02:MANIM B02B:MANIM B03:MANIM B04:MANIM B05:MANIM B06:MANIM B07A:MANIM B07:MANIM B08:MANIM B09:MANIM B10:MANIM B11:MANIM B12:MANIM B13:MANIM B14:MANIM B15:MANIM B16:VIDEO B17:MANIM B18:MANIM B19:MANIM B20:MANIM BOUT:MANIM
+[run] GATE V — frame-level visual QC on the compiled reel
+[gate-v] frames=50 BLOCKER=0 MAJOR=0 → /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/_qc/REPORT.md
+[run] done → /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film  (QC gates: on)
+[run] REVIEW built; no final exported. Use ./art final <reel> for a verified master.
+[run] any remaining slates are YOUR slots — see /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/SHOTLIST.md
+[run] skip B00_ClaimFile — B00 already filled
+[run] skip B01_QuoteOrRefuse — B01 already filled
+[run] skip B02_LookAlike — B02 already filled
+[run] skip B02B_Consequence — B02B already filled
+[run] skip B03_Roadmap — B03 already filled
+[run] skip B04_SearchEngines — B04 already filled
+[run] skip B05_LegalTools — B05 already filled
+[run] skip B06_RealNotRight — B06 already filled
+[run] skip B07A_TheGap — B07A already filled
+[run] skip B07_AddsTheCheck — B07 already filled
+[run] skip B08_FirstPiece — B08 already filled
+[run] skip B09_ContractChecker — B09 already filled
+[run] skip B10_AgentLoop — B10 already filled
+[run] skip B11_ReadOnlyTools — B11 already filled
+[run] skip B12_HumanGate — B12 already filled
+[run] skip B13_Data — B13 already filled
+[run] skip B14_Steps — B14 already filled
+[run] skip B15_Resources — B15 already filled
+[run] skip B17_TraceableNotRight — B17 already filled
+[run] skip B19_BreakItOnPurpose — B19 already filled
+[run] skip B20_Limit — B20 already filled
+[run] skip BOUT_Title — BOUT already filled
+[run] GATE L — beat-mix lint
+[beat-lint] clean — beat mix OK (beat_sheet.json)
+[run] GATE SHAPE — finance chart-shape enforcement
+[gate-shape] skip — not a finance reel (beat_sheet.json)
+[run] GATE A — static pre-flight
+
+[static-check] 1 scene(s): 1 clean · 0 warn · 0 error
+[run] GATE W — WCAG contrast + margins + text-overlap (independent second check)
+[gateW] B18_TheBar clean
+[run] rendering B18_TheBar
+Manim Community v0.20.1
+
+[11/23/26 20:45:13] INFO     Animation 0 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1697911619_622494375_400598203                     
+                             8)                                                 
+Animation 0: FadeIn(RoundedRectangle), etc.:   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                      INFO     Animation 1 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_181039                         
+                             8128_2620255817.mp4'                               
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_3265914405_13849029                     
+                             73)                                                
+Animation 2: GrowFromCenter(Circle), etc.:   0%|          | 0/1 [00:00<?, ?it/s]                                                                                [11/23/26 20:45:14] INFO     Animation 3 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_334608                         
+                             4629_4226853480.mp4'                               
+                    INFO     Animation 4 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_881635134_251920179                     
+                             6)                                                 
+Animation 4: GrowFromCenter(Circle), etc.:   0%|          | 0/1 [00:00<?, ?it/s]                                                                                [11/23/26 20:45:15] INFO     Animation 5 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_532053                         
+                             877_805400022.mp4'                                 
+                    INFO     Animation 6 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_209960                         
+                             282_2133628908.mp4'                                
+Animation 7: GrowFromCenter(Circle), etc.:   0%|          | 0/10 [00:00<?, ?it/s]                                                                                 [11/23/26 20:45:16] INFO     Animation 7 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_333484                         
+                             9170_2878133987.mp4'                               
+[11/23/26 20:45:17] INFO     Animation 8 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_301007                         
+                             4438_1128596536.mp4'                               
+Animation 9: FadeIn(RoundedRectangle), etc.:   0%|          | 0/12 [00:00<?, ?it/s]                                                                                   [11/23/26 20:45:18] INFO     Animation 9 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_143723                         
+                             9930_3792099224.mp4'                               
+Animation 10: Create(VGroup of 2 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]                                                                                                        INFO     Animation 10 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_197542                         
+                             2849_683591623.mp4'                                
+[11/23/26 20:45:19] INFO     Animation 11 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B1                         
+                             8_TheBar/1167814662_364750                         
+                             9718_1794641191.mp4'                               
+                    INFO     Combining to Movie file.   scene_file_writer.py:753
+                    INFO                                scene_file_writer.py:904
+                             File ready at                                      
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/B18_TheBar.mp4'                                
+                                                                                
+                    INFO     Rendered B18_TheBar                    scene.py:278
+                             Played 12 animations                               
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+Animation 0: FadeIn(RoundedRectangle), etc.:   0%|          | 0/9 [00:00<?, ?it/s]                                                                                  /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:149: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  if float(mob.get_stroke_opacity()) <= 0.02:
+Animation 2: GrowFromCenter(Circle), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                Animation 4: GrowFromCenter(Circle), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                Animation 7: GrowFromCenter(Circle), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                Animation 9: FadeIn(RoundedRectangle), etc.:   0%|          | 0/8 [00:00<?, ?it/s]                                                                                  Animation 10: Create(VGroup of 2 submobjects):   0%|          | 0/5 [00:00<?, ?it/s]                                                                                    [audit] scenes: 18 snapshots → CLEAN
+[audit] report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/layout_audit.md
+[remotion] BEHIND: 4.0.535 installed, 4.0.546 is latest. Bear's rule: use the latest Remotion. Run `./art remotion-upgrade`, then re-render and re-gate.
+[remotion] BIDEA: filled already (skip)
+[remotion] B16: filled already (skip)
+[remotion] done — run `bash scripts/run.sh <REEL>` to compile the cut
+[art] compiled B18  MANIM    15.5s  ← B18.mp4
+[art] motion histogram: graphic:23  remotion:2
+[art] SKIN LINT: BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' — COLD OPEN LAW wants ClaudeComposerAsk
+[art] SKIN LINT: BOUT: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro
+[art] build stamp → beat_sheet.json (25/25 filled)
+[art] QC contact sheet → /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/qc-sheet.png
+[art] wrote /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/yadav-shreyash-final-project-film-slate.mp4  (301.1s, audio: per-beat timeline (source audio preserved), drawtext: no — PIL overlays)
+[art] slots: 25/25 filled — BIDEA:VIDEO B00:MANIM B01:MANIM B02:MANIM B02B:MANIM B03:MANIM B04:MANIM B05:MANIM B06:MANIM B07A:MANIM B07:MANIM B08:MANIM B09:MANIM B10:MANIM B11:MANIM B12:MANIM B13:MANIM B14:MANIM B15:MANIM B16:VIDEO B17:MANIM B18:MANIM B19:MANIM B20:MANIM BOUT:MANIM
+[run] GATE V — frame-level visual QC on the compiled reel
+[gate-v] frames=50 BLOCKER=0 MAJOR=0 → /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/_qc/REPORT.md
+[run] done → /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film  (QC gates: on)
+[run] REVIEW built; no final exported. Use ./art final <reel> for a verified master.
+[run] any remaining slates are YOUR slots — see /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/SHOTLIST.md
+[run] skip B00_ClaimFile — B00 already filled
+[run] skip B02_LookAlike — B02 already filled
+[run] skip B02B_Consequence — B02B already filled
+[run] skip B03_Roadmap — B03 already filled
+[run] skip B04_SearchEngines — B04 already filled
+[run] skip B05_LegalTools — B05 already filled
+[run] skip B06_RealNotRight — B06 already filled
+[run] skip B07A_TheGap — B07A already filled
+[run] skip B08_FirstPiece — B08 already filled
+[run] skip B10_AgentLoop — B10 already filled
+[run] skip B11_ReadOnlyTools — B11 already filled
+[run] skip B12_HumanGate — B12 already filled
+[run] skip B13_Data — B13 already filled
+[run] skip B14_Steps — B14 already filled
+[run] skip B15_Resources — B15 already filled
+[run] skip B17_TraceableNotRight — B17 already filled
+[run] skip B18_TheBar — B18 already filled
+[run] skip B19_BreakItOnPurpose — B19 already filled
+[run] skip B20_Limit — B20 already filled
+[run] skip BOUT_Title — BOUT already filled
+[run] GATE L — beat-mix lint
+[beat-lint] clean — beat mix OK (beat_sheet.json)
+[run] GATE SHAPE — finance chart-shape enforcement
+[gate-shape] skip — not a finance reel (beat_sheet.json)
+[run] GATE A — static pre-flight
+
+[static-check] 1 scene(s): 1 clean · 0 warn · 0 error
+
+[static-check] 1 scene(s): 1 clean · 0 warn · 0 error
+
+[static-check] 1 scene(s): 1 clean · 0 warn · 0 error
+[run] GATE W — WCAG contrast + margins + text-overlap (independent second check)
+[gateW] B01_QuoteOrRefuse clean
+[gateW] B07_AddsTheCheck clean
+[gateW] B09_ContractChecker clean
+[run] rendering B01_QuoteOrRefuse
+Manim Community v0.20.1
+
+[11/23/26 23:05:16] INFO     Animation 0 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1697911619_4284880423_23877420                     
+                             41)                                                
+Animation 0: FadeOut(Text('question')), etc.:   0%|          | 0/1 [00:00<?, ?it/s]                                                                                   [11/23/26 23:05:17] INFO     Animation 1 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             1_QuoteOrRefuse/1167814662                         
+                             _851214369_2093165621.mp4'                         
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_3787972081_24011238                     
+                             07)                                                
+Animation 2: _MethodAnimation(VGroup of 3 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                                 INFO     Animation 3 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_1426279633_15260707                     
+                             77)                                                
+Animation 3: FadeIn(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                       INFO     Animation 4 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_2594794581_14458529                     
+                             52)                                                
+Animation 4: FadeIn(Text('quote')):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                             INFO     Animation 5 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             1_QuoteOrRefuse/1167814662                         
+                             _425304948_2742360490.mp4'                         
+                    INFO     Animation 6 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_865769711_215344298                     
+                             6)                                                 
+Animation 6: Create(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                   [11/23/26 23:05:18] INFO     Animation 7 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             1_QuoteOrRefuse/1167814662                         
+                             _3875358048_4148819629.mp4                         
+                             '                                                  
+                    INFO     Animation 8 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_1788546162_29155542                     
+                             49)                                                
+Animation 8: FadeIn(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                       INFO     Animation 9 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_3699381514_22918951                     
+                             95)                                                
+Animation 9: Create(Line), etc.:   0%|          | 0/1 [00:00<?, ?it/s]                                                                      [11/23/26 23:05:20] INFO     Animation 10 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             1_QuoteOrRefuse/1167814662                         
+                             _3301091377_2129238979.mp4                         
+                             '                                                  
+                    INFO     Combining to Movie file.   scene_file_writer.py:753
+                    INFO                                scene_file_writer.py:904
+                             File ready at                                      
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/B01_QuoteOrRefuse.mp4'                         
+                                                                                
+                    INFO     Rendered B01_QuoteOrRefuse             scene.py:278
+                             Played 11 animations                               
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+Animation 0: FadeOut(Text('question')), etc.:   0%|          | 0/11 [00:00<?, ?it/s]                                                                                    /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:149: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  if float(mob.get_stroke_opacity()) <= 0.02:
+Animation 2: _MethodAnimation(VGroup of 3 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]                                                                                             Animation 3: FadeIn(VGroup of 2 submobjects):   0%|          | 0/11 [00:00<?, ?it/s]                                                                                    Animation 4: FadeIn(Text('quote')):   0%|          | 0/5 [00:00<?, ?it/s]                                                                         Animation 6: Create(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]                                                                                   Animation 8: FadeIn(VGroup of 2 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]                                                                                   Animation 9: Create(Line), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                      [audit] scenes: 15 snapshots → CLEAN
+[audit] report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/layout_audit.md
+[run] rendering B07_AddsTheCheck
+Manim Community v0.20.1
+
+[11/23/26 23:05:22] INFO     Animation 0 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1697911619_3994409252_18061620                     
+                             31)                                                
+Animation 0: FadeIn(VGroup of 4 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                       INFO     Animation 1 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_3243832240_40302883                     
+                             58)                                                
+Animation 1: FadeIn(Text('the check')):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                 INFO     Animation 2 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             641066861_3442180897.mp4'                          
+                    INFO     Animation 3 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_702470764_415018858                     
+                             5)                                                 
+Animation 3: _MethodAnimation(VGroup of 7 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                                 INFO     Animation 4 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_1426957930_12126811                     
+                             31)                                                
+Animation 4: Create(Line):   0%|          | 0/1 [00:00<?, ?it/s]                                                                [11/23/26 23:05:23] INFO     Animation 5 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             2525374910_426211000.mp4'                          
+[11/23/26 23:05:24] INFO     Animation 6 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             3932050916_72254938.mp4'                           
+                    INFO     Animation 7 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_1678676820_39092610                     
+                             72)                                                
+Animation 7: FadeIn(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                       INFO     Animation 8 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_3735068246_38446006                     
+                             7)                                                 
+Animation 8: Create(Line):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                    INFO     Animation 9 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             277047778_372372567.mp4'                           
+                    INFO     Animation 10 : Using cached    cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_2773412235_19238883                     
+                             79)                                                
+Animation 10: FadeIn(RoundedRectangle), etc.:   0%|          | 0/1 [00:00<?, ?it/s]                                                                                   [11/23/26 23:05:25] INFO     Animation 11 : Using cached    cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_1571490732_38256665                     
+                             04)                                                
+Animation 11: LaggedStart(Group):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                           INFO     Animation 12 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             7_AddsTheCheck/1167814662_                         
+                             2465028053_627692116.mp4'                          
+                    INFO     Combining to Movie file.   scene_file_writer.py:753
+                    INFO                                scene_file_writer.py:904
+                             File ready at                                      
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/B07_AddsTheCheck.mp4'                          
+                                                                                
+                    INFO     Rendered B07_AddsTheCheck              scene.py:278
+                             Played 13 animations                               
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+Animation 0: FadeIn(VGroup of 4 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]                                                                                   Animation 1: FadeIn(Text('the check')):   0%|          | 0/5 [00:00<?, ?it/s]                                                                             /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:149: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  if float(mob.get_stroke_opacity()) <= 0.02:
+Animation 3: _MethodAnimation(VGroup of 7 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]                                                                                             Animation 4: Create(Line):   0%|          | 0/8 [00:00<?, ?it/s]                                                                Animation 7: FadeIn(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]                                                                                   Animation 8: Create(Line):   0%|          | 0/5 [00:00<?, ?it/s]                                                                Animation 10: FadeIn(RoundedRectangle), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                   Animation 11: LaggedStart(Group):   0%|          | 0/12 [00:00<?, ?it/s]                                                                        [audit] scenes: 18 snapshots → CLEAN
+[audit] report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/layout_audit.md
+[run] rendering B09_ContractChecker
+Manim Community v0.20.1
+
+[11/23/26 23:05:27] INFO     Animation 0 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1697911619_3881661446_34219782                     
+                             67)                                                
+Animation 0: FadeIn(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                       INFO     Animation 1 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_876582933_386420215                     
+                             3)                                                 
+Animation 1: FadeIn(Text('fixed format')):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                [11/23/26 23:05:28] INFO     Animation 2 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             9_ContractChecker/11678146                         
+                             62_322826897_3388794143.mp                         
+                             4'                                                 
+                    INFO     Animation 3 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_1613643085_37340177                     
+                             74)                                                
+Animation 3: FadeIn(RoundedRectangle):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                INFO     Animation 4 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             9_ContractChecker/11678146                         
+                             62_523420526_885762264.mp4                         
+                             '                                                  
+                    INFO     Animation 5 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_3406876269_18809288                     
+                             69)                                                
+Animation 5: FadeIn(RoundedRectangle):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                INFO     Animation 6 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             9_ContractChecker/11678146                         
+                             62_2199873498_660098479.mp                         
+                             4'                                                 
+                    INFO     Animation 7 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_505241531_818881398                     
+                             )                                                  
+Animation 7: FadeIn(RoundedRectangle):   0%|          | 0/1 [00:00<?, ?it/s]                                                                            [11/23/26 23:05:29] INFO     Animation 8 : Partial      scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             9_ContractChecker/11678146                         
+                             62_1899703935_1133605034.m                         
+                             p4'                                                
+                    INFO     Animation 9 : Using cached     cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_3383728349_32719036                     
+                             94)                                                
+Animation 9: FadeIn(RoundedRectangle):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                INFO     Animation 10 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             9_ContractChecker/11678146                         
+                             62_2212921433_4177545202.m                         
+                             p4'                                                
+                    INFO     Animation 11 : Using cached    cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_2004389980_28320687                     
+                             08)                                                
+Animation 11: FadeIn(VGroup of 4 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                              INFO     Animation 12 : Using cached    cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_3710743784_84968048                     
+                             2)                                                 
+Animation 12: _MethodAnimation(VGroup of 7 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                                  INFO     Animation 13 : Using cached    cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_184785957_230979570                     
+                             7)                                                 
+Animation 13: Create(Line):   0%|          | 0/1 [00:00<?, ?it/s]                                                                 [11/23/26 23:05:31] INFO     Animation 14 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             9_ContractChecker/11678146                         
+                             62_2592848197_3416092740.m                         
+                             p4'                                                
+                    INFO     Animation 15 : Using cached    cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_2284136253_26831103                     
+                             45)                                                
+Animation 15: GrowFromEdge(RoundedRectangle):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                       INFO     Animation 16 : Using cached    cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_2698210965_22460907                     
+                             31)                                                
+Animation 16: FadeIn(VGroup of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]                                                                                                        INFO     Animation 17 : Using cached    cairo_renderer.py:94
+                             data (hash :                                       
+                             1167814662_3561783639_85435661                     
+                             8)                                                 
+Animation 17: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/1 [00:00<?, ?it/s]                                                                                          [11/23/26 23:05:32] INFO     Animation 18 : Partial     scene_file_writer.py:601
+                             movie file written in                              
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/partial_movie_files/B0                         
+                             9_ContractChecker/11678146                         
+                             62_3924041548_302011022.mp                         
+                             4'                                                 
+                    INFO     Combining to Movie file.   scene_file_writer.py:753
+                    INFO                                scene_file_writer.py:904
+                             File ready at                                      
+                             '/Users/shreyashyadav/Proj                         
+                             ect                                                
+                             Shrey/info7375/reel/yadav-                         
+                             shreyash-final-project-fil                         
+                             m/media/videos/scenes/2160                         
+                             p24/B09_ContractChecker.mp                         
+                             4'                                                 
+                                                                                
+                    INFO     Rendered B09_ContractChecker           scene.py:278
+                             Played 19 animations                               
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+Animation 0: FadeIn(VGroup of 2 submobjects):   0%|          | 0/9 [00:00<?, ?it/s]                                                                                   Animation 1: FadeIn(Text('fixed format')):   0%|          | 0/5 [00:00<?, ?it/s]                                                                                /Users/shreyashyadav/Project Shrey/info7375/brutalist.art-nov/runtime/qc/manim_layout_audit.py:149: DeprecationWarning: This method is not guaranteed to stay around. Please prefer getting the attribute normally.
+  if float(mob.get_stroke_opacity()) <= 0.02:
+Animation 3: FadeIn(RoundedRectangle):   0%|          | 0/5 [00:00<?, ?it/s]                                                                            Animation 5: FadeIn(RoundedRectangle):   0%|          | 0/5 [00:00<?, ?it/s]                                                                            Animation 7: FadeIn(RoundedRectangle):   0%|          | 0/5 [00:00<?, ?it/s]                                                                            Animation 9: FadeIn(RoundedRectangle):   0%|          | 0/5 [00:00<?, ?it/s]                                                                            Animation 11: FadeIn(VGroup of 4 submobjects), etc.:   0%|          | 0/8 [00:00<?, ?it/s]                                                                                          Animation 12: _MethodAnimation(VGroup of 7 submobjects):   0%|          | 0/8 [00:00<?, ?it/s]                                                                                              Animation 13: Create(Line):   0%|          | 0/6 [00:00<?, ?it/s]                                                                 Animation 15: GrowFromEdge(RoundedRectangle):   0%|          | 0/6 [00:00<?, ?it/s]                                                                                   Animation 16: FadeIn(VGroup of 2 submobjects):   0%|          | 0/6 [00:00<?, ?it/s]                                                                                    Animation 17: Create(VGroup of 2 submobjects), etc.:   0%|          | 0/6 [00:00<?, ?it/s]                                                                                          [audit] scenes: 26 snapshots → CLEAN
+[audit] report: /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/layout_audit.md
+[remotion] BEHIND: 4.0.535 installed, 4.0.546 is latest. Bear's rule: use the latest Remotion. Run `./art remotion-upgrade`, then re-render and re-gate.
+[remotion] BIDEA: filled already (skip)
+[remotion] B16: filled already (skip)
+[remotion] done — run `bash scripts/run.sh <REEL>` to compile the cut
+[art] compiled B01  MANIM    10.8s  ← B01.mp4
+[art] compiled B07  MANIM    11.7s  ← B07.mp4
+[art] compiled B09  MANIM    15.5s  ← B09.mp4
+[art] motion histogram: graphic:23  remotion:2
+[art] SKIN LINT: BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' — COLD OPEN LAW wants ClaudeComposerAsk
+[art] SKIN LINT: BOUT: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro
+[art] build stamp → beat_sheet.json (25/25 filled)
+[art] QC contact sheet → /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/qc-sheet.png
+[art] wrote /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/yadav-shreyash-final-project-film-slate.mp4  (302.1s, audio: per-beat timeline (source audio preserved), drawtext: no — PIL overlays)
+[art] slots: 25/25 filled — BIDEA:VIDEO B00:MANIM B01:MANIM B02:MANIM B02B:MANIM B03:MANIM B04:MANIM B05:MANIM B06:MANIM B07A:MANIM B07:MANIM B08:MANIM B09:MANIM B10:MANIM B11:MANIM B12:MANIM B13:MANIM B14:MANIM B15:MANIM B16:VIDEO B17:MANIM B18:MANIM B19:MANIM B20:MANIM BOUT:MANIM
+[run] GATE V — frame-level visual QC on the compiled reel
+[gate-v] frames=50 BLOCKER=0 MAJOR=0 → /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/_qc/REPORT.md
+[run] done → /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film  (QC gates: on)
+[run] REVIEW built; no final exported. Use ./art final <reel> for a verified master.
+[run] any remaining slates are YOUR slots — see /Users/shreyashyadav/Project Shrey/info7375/reel/yadav-shreyash-final-project-film/SHOTLIST.md
